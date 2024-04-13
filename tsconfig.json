@@ -66,6 +66,5 @@
     "App.tsx", 
     "index.d.ts",
     "__mocks__",
-    "babel.config.js"  
-, "src/Components/HeaderBackButton/index.tsx", "jsconfig.json", "src/Types/index.d.ts", "src/Providers/BottomSheetProvider.tsxzx", "src/Components/Buttons/BackButton/index.tsxs", "src/Components/Buttons/BackButton/BackButton.test.tsxss"  ],
+  ]
 }
