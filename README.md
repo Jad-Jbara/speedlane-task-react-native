@@ -15,6 +15,13 @@ This is the frontend part of the Employees Lookup Application. This application 
 7. Shopify flash-list
 8. React Native Reanimated
 
+## Pre-requisite Instructions to set-up the project: (There are no extra steps to set-up the project other than the normal react-native set-up steps)
+1. Make sure you have node installed on your machine
+2. Make sure you have yarn installed on your machine
+3. Make sure you have react-native installed on your machine (All steps are available on the [react-native documentation](https://reactnative.dev/docs/environment-setup))
+4. Make sure you have Xcode installed on your machine (for ios)
+5. Make sure you have Android Studio installed on your machine (for android)
+6. Make sure you have cocoapods installed on your machine (for ios)
 
 ## Instructions to run the project:
 1. Clone the repository
@@ -23,6 +30,8 @@ This is the frontend part of the Employees Lookup Application. This application 
 4. Run `yarn start` to start the metro bundler
 5. Run `yarn ios` to run the application on ios simulator
 6. Run `yarn android` to run the application on android emulator
+    ### NOTE :
+    - Make sure that the backend is running on the same machine or on a server and that the backend url inside of the `src/Constants/Keys.ts` file is pointing to the correct url of the backend (the default url set is `http://localhost:3000`)
 
 ## Progress on project and changes done
 1. Created the project structure (folders, files, etc)
@@ -56,3 +65,17 @@ This is the frontend part of the Employees Lookup Application. This application 
 <img src="https://github.com/jad-jbara/speedlane-task-react-native/blob/master/screenshots/5.png" width="200">
 <img src="https://github.com/jad-jbara/speedlane-task-react-native/blob/master/screenshots/6.png" width="200">
 <img src="https://github.com/jad-jbara/speedlane-task-react-native/blob/master/screenshots/7.png" width="200">
+
+## Screen Recording:
+### App open
+![](https://github.com/jad-jbara/speedlane-task-react-native/blob/master/gifs/1.gif)
+### Employees Filter with no results
+![](https://github.com/jad-jbara/speedlane-task-react-native/blob/master/gifs/2.gif)
+### Employees Filter with results
+![](https://github.com/jad-jbara/speedlane-task-react-native/blob/master/gifs/3.gif)
+### Employee Details with Edit
+![](https://github.com/jad-jbara/speedlane-task-react-native/blob/master/gifs/4.gif)
+### Create Employee
+![](https://github.com/jad-jbara/speedlane-task-react-native/blob/master/gifs/5.gif)
+### Search Employee
+![](https://github.com/jad-jbara/speedlane-task-react-native/blob/master/gifs/6.gif)
